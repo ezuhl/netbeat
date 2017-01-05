@@ -1,0 +1,9 @@
+2017-01-03T14:19:46-06:00 INFO Home path: [/home/ethanzuhl/go/src/github.com/ezuhl/netbeat] Config path: [/home/ethanzuhl/go/src/github.com/ezuhl/netbeat] Data path: [/home/ethanzuhl/go/src/github.com/ezuhl/netbeat/data] Logs path: [/home/ethanzuhl/go/src/github.com/ezuhl/netbeat/logs]
+2017-01-03T14:19:46-06:00 INFO Setup Beat: netbeat; Version: 6.0.0-alpha1
+2017-01-03T14:19:46-06:00 INFO Dry run mode. All output types except the file based one are disabled.
+2017-01-03T14:19:46-06:00 INFO Publisher name: ethanzuhl-ThinkPad-T430
+2017-01-03T14:19:46-06:00 INFO Register [ModuleFactory:[], MetricSetFactory:[conntrack/conntrack]]
+2017-01-03T14:19:46-06:00 INFO netbeat start running.
+2017-01-03T14:20:01-06:00 INFO Total non-zero values:  libbeat.publisher.published_events=16 fetches.conntrack-conntrack.success=16 fetches.conntrack-conntrack.events=16
+2017-01-03T14:20:01-06:00 INFO Uptime: 15.130623851s
+2017-01-03T14:20:01-06:00 INFO netbeat stopped.

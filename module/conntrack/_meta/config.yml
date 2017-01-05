@@ -1,0 +1,6 @@
+- module: conntrack
+  metricsets: ["conntrack"]
+  enabled: true
+  period: 1s
+  hosts: ["localhost"]
+

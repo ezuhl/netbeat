@@ -1,0 +1,23 @@
+###################### Netbeat Configuration Example #######################
+
+# This file is an example configuration file highlighting only the most common
+# options. The metricbeat.full.yml file from the same directory contains all the
+# supported options with more comments. You can use it as a reference.
+#
+# You can find the full configuration reference here:
+# https://www.elastic.co/guide/en/beats/metricbeat/index.html
+
+#==========================  Modules configuration ============================
+netbeat.modules:
+
+#------------------------------ conntrack Module -----------------------------
+- module: conntrack
+  metricsets: ["conntrack"]
+  enabled: true
+  period: 15s
+  hosts: ["localhost"]
+
+output.elasticsearch:
+    hosts: ["localhost:9200"]
+    index: "beat-net-%{+yyyy.MM.dd}"
+

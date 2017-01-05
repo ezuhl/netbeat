@@ -1,0 +1,9 @@
+- name: conntrack
+  type: group
+  description: >
+    conntrack
+  fields:
+    - name: example
+      type: keyword
+      description: >
+        Example field
