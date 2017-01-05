@@ -14,10 +14,8 @@ netbeat.modules:
 - module: conntrack
   metricsets: ["conntrack"]
   enabled: true
-  period: 15s
+  period: 1s
   hosts: ["localhost"]
 
-output.elasticsearch:
-    hosts: ["localhost:9200"]
-    index: "beat-net-%{+yyyy.MM.dd}"
+
 

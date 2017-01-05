@@ -17,9 +17,5 @@ netbeat.modules:
   period: 1s
   hosts: ["localhost"]
 
-output.elasticsearch:
-    hosts: ["localhost:9200"]
-    index: "beat-net-%{+yyyy.MM.dd}"
-
 
 
