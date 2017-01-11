@@ -2,7 +2,8 @@
 
 set -e
 
-BEAT_PATH=/home/ethanzuhl/go/src/${1}
+BEAT_PATH=/go/src/${1}
+
 # BEATNAME is in the $PACK variable
 BEATNAME=$PACK
 

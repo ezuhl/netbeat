@@ -1,5 +1,5 @@
 BEATNAME=netbeat
-BEAT_DIR=github.com/ezuhl
+BEAT_DIR=github.com/ezuhl/netbeat
 SYSTEM_TESTS=false
 TEST_ENVIRONMENT=false
 ES_BEATS?=./vendor/github.com/elastic/beats
